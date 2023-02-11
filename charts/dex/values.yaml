@@ -55,6 +55,10 @@ configSecret:
 # See the [official documentation](https://dexidp.io/docs/).
 config: {}
 
+# -- Pass the Application configuration through Helm's templating engine.
+# See the [helm documentation](https://helm.sh/docs/developing_charts/#using-the-tpl-function)
+tplConfig: false
+
 # -- Additional storage [volumes](https://kubernetes.io/docs/concepts/storage/volumes/).
 # See the [API reference](https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#volumes-1) for details.
 volumes: []
